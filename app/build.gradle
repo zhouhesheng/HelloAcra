@@ -4,7 +4,6 @@ apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion 29
-    buildToolsVersion "30.0.2"
 
     defaultConfig {
         applicationId "io.aptly.helloacra"
@@ -42,6 +41,7 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    namespace 'io.aptly.helloacra'
 }
 
 dependencies {

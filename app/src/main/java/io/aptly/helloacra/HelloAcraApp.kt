@@ -29,7 +29,7 @@ class HelloAcraApp: Application() {
         builder.getPluginConfigurationBuilder(HttpSenderConfigurationBuilder::class.java)
             .setCompress(false)
                 // TODO add Acrarium's host name
-            .setUri("https://${YOUR_ACRA_HOST_HERE}/report")
+            .setUri("https://YOUR_ACRA_HOST_HERE/report")
             .setHttpMethod(HttpSender.Method.POST)
                 // TODO add Acrarium's app credentials
             .setBasicAuthLogin("")
